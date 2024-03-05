@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Personagem deve montar o componente sem deixar de funcionar 1`] = `ShallowWrapper {}`;
