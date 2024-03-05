@@ -15,3 +15,6 @@ Ao digitar são exibidos os personagens que estão de acordo com o que foi digit
   <img loading="lazy" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
   <img loading="lazy" src="https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white">
 </div>
+
+## Deploy
+Executar o comando: npm run deploy
