@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/busca-personagem-react/static/css/main.cf1d2692.css",
+    "main.js": "/busca-personagem-react/static/js/main.a1e5354c.js",
+    "static/js/453.d9354dcb.chunk.js": "/busca-personagem-react/static/js/453.d9354dcb.chunk.js",
+    "static/media/lupa-branca.png": "/busca-personagem-react/static/media/lupa-branca.e34fe1c32f0b9779e60f.png",
+    "index.html": "/busca-personagem-react/index.html",
+    "main.cf1d2692.css.map": "/busca-personagem-react/static/css/main.cf1d2692.css.map",
+    "main.a1e5354c.js.map": "/busca-personagem-react/static/js/main.a1e5354c.js.map",
+    "453.d9354dcb.chunk.js.map": "/busca-personagem-react/static/js/453.d9354dcb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf1d2692.css",
+    "static/js/main.a1e5354c.js"
+  ]
+}
