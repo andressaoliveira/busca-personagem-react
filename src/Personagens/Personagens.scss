@@ -1,0 +1,45 @@
+.Personagens {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 100px;
+
+  .cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    //background-image: url('../../Img/lupa-branca.png');
+    input {
+      background: url('../Img/lupa-branca.png') no-repeat 212px center;
+      color: white;
+      // background-color: rgba(0,0,0,0.1);
+      background-size: 20px;
+      border: none;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+      padding-top: 2px;
+      text-indent: 8px;
+      width: 240px;
+      height: 39px;
+    }
+
+  }
+
+  .lista-personagens {
+    color: white;
+
+    .titulo {
+      font-size: 20px;
+      align-items: flex-start;
+      display: flex;
+      padding-bottom: 15px;
+    }
+
+    .lista {
+      font-size: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+  }
+}

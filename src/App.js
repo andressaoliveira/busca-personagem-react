@@ -1,6 +1,5 @@
-import React from 'react';
+import Personagens from './Personagens/Personagens'
 import './App.scss';
-import Personagens from './Personagens';
 
 function App() {
   return (

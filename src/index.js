@@ -1,36 +1,22 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import "moment/locale/pt-br";
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 import { Provider } from "react-redux";
-import { PersistGate } from "redux-persist/es/integration/react";
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
 
-import configureStore from "./Config/Store";
+import store from "./redux/store";
 
-import App from "./App/index";
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <Provider store={store}>
+      <App />
+    </Provider>
+  </React.StrictMode>
+);
 
-import "./index.scss";
-
-const { persistor, store } = configureStore();
-
-const moment = require("moment");
-
-moment.locale('pt-br')
-
-const render = (target) => {
-    ReactDOM.render(
-        <Provider store={store}>
-            <PersistGate loading={<div>loading...</div>} persistor={persistor}>
-                <App />
-            </PersistGate>
-        </Provider>,
-        target
-    );
-};
-
-render(document.getElementById("root"), "pt-br");
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: http://bit.ly/CRA-PWA
-
-
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();

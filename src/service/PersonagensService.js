@@ -1,4 +1,4 @@
-import PersonagensRepository from "../Repositories/PersonagensRepository";
+import PersonagensRepository from "../repository/PersonagensRepository";
 
 class PersonagensService {
   constructor(personagensRepository = new PersonagensRepository()) {
