@@ -9,7 +9,7 @@ class Personagem extends Component {
     const { personagem } = this.props;
     console.log(personagem)
 
-    let imagem = personagem.image != "" ? personagem.image : "https://i.pinimg.com/280x280_RS/46/87/d9/4687d9c8695cfb2d7acd2a303ae45228.jpg"
+    let imagem = personagem.image !== "" ? personagem.image : "https://i.pinimg.com/280x280_RS/46/87/d9/4687d9c8695cfb2d7acd2a303ae45228.jpg"
 
     return (
       <div className="personagem" key={personagem.id}>

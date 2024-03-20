@@ -15,7 +15,7 @@ const Personagens = () => {
 
   useEffect(() => {
     dispatch(getPersonagens());
-  }, [])
+  }, [dispatch])
 
   useEffect(() => {
     setPersonagens(data);
